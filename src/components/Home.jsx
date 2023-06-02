@@ -35,7 +35,7 @@ const Home = () => {
   return (
    <div style={{backgroundImage:'url("https://images.unsplash.com/photo-1518112166137-85f9979a43aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80")',backgroundSize:'cover' ,backgroundPosition:'center', width:'100%',overflow:'hidden' }}>
        <h1 className='fst-italic' style={{textAlign:'center',color:'whitesmoke'}}> Moviezz</h1>
- <div className='row row-cols-1 row-cols-md-3 g-4' >
+ <div className='row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4' >
 {
 
 info && info.map(item=>
